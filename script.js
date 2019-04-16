@@ -6,7 +6,7 @@ $(document).ready(function () {
         audio.currentTime = 0
         audio.play();
         //make pad look like it was clicked
-        pad.css('border', '5px solid black');
+        pad.css('border', '3px solid black');
         setTimeout(function(){ 
             pad.css('border', '0px solid black');
         }, 100);
