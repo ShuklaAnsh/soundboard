@@ -16,12 +16,12 @@ $(document).ready(function () {
         }, 100);
         //change background color
         var colour = pad.css('background');
-        // $('body').css('background', colour);
+        $('body').css('background', '#FFF');
         animation_timeline.add(
             {
                 targets: 'body',
                 background: colour
             }, 
-        0)
+        0);
     });
 });
